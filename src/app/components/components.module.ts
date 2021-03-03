@@ -15,7 +15,7 @@ const socialAuthConfig: SocialAuthServiceConfig = {
         {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-                '465528125368-7ldpgo5rclo7hf20p1ae6neijnvbmaol.apps.googleusercontent.com'
+                
             ),
         }
     ],
