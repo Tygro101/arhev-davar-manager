@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: pixel;
+    src: url(assets/fonts/PixelEmulator-xq08.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: vibes;
+    src: url(assets/fonts/VerminVibesV-Zlg3.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: run;
+    src: url(assets/fonts/Run-6YeWA.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: parik;
+    src: url(assets/fonts/Parikesit-0ZYR.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: immortal;
+    src: url(assets/fonts/immortal.ttf) format("truetype");
+}
+@font-face {
+    font-family: tempo;
+    src: url(assets/fonts/tempo.ttf) format("truetype");
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

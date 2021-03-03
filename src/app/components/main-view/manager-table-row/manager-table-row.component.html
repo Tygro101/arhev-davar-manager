@@ -1,0 +1,5 @@
+<div class="row-wrapper">
+    <div class="column-wrapper" *ngFor='let title of titles'>
+        <div (click)="isHeader && onHeaderClick.emit(title.key)" class="column">{{!!row ? row[title.key] : title.title}}</div>
+    </div>
+</div>  

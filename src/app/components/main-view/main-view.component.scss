@@ -1,0 +1,9 @@
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+    background: #0000000a;
+    .table {
+        height: calc(100vh - 180px);
+        overflow-y: auto;
+    }
+}

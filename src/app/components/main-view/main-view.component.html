@@ -1,0 +1,12 @@
+
+
+<div class="wrapper">
+    <app-summery-header [users]='users'></app-summery-header>
+    <div class="table">
+        <manager-table-row (onHeaderClick)='onHeaderClick($event)' [titles]='titles' [isHeader]='true'></manager-table-row>
+        <div *ngFor='let user of users'>
+            <manager-table-row [titles]='titles' [row]='user'></manager-table-row>
+        </div>
+    </div>
+
+</div>
